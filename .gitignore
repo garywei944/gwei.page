@@ -6,7 +6,9 @@ db.json
 *.log
 node_modules/
 public/
-.deploy*/### Node template
+.deploy*/
+
+### Node template
 # Logs
 logs
 *.log

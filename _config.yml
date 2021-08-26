@@ -3,22 +3,26 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: 'ariseus'
+subtitle: '硬币的背面'
+description: "Gary's Personal Blog"
 keywords:
-author: John Doe
-language: en
-timezone: ''
+  - garywei944
+  - ariseus
+  - Guanghao Wei
+author: garywei944
+language: cn
+timezone: 'America/New_York'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
-permalink: :year/:month/:day/:title/
+url: https://www.gwei.page
+#permalink: :year/:month/:day/:title/
+permalink: :year/:hash/
 permalink_defaults:
 pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+  trailing_index: false
+  trailing_html: false
 
 # Directory
 source_dir: source
