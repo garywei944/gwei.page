@@ -241,7 +241,8 @@ mark {
 }
 
 .bg-color {
-    background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    /*background-image: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);*/
+    background-image: linear-gradient(to right, #cc66ff 0%, #ff66cc 100%);
 }
 
 .text-color {
@@ -257,7 +258,8 @@ mark {
     position: fixed;
     bottom: 0;
     z-index: 300;
-    background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);
+    /*background: linear-gradient(to right, #4cbf30 0%, #0f9d58 100%);*/
+    background: linear-gradient(to right, #cc66ff 0%, #66ccff 100%);
     opacity: 0.8;
 }
 
@@ -1865,7 +1867,7 @@ footer .copy-right {
     margin: -15px 0 10px 10px;
 }
 
-p.search-result-summary{
+p.search-result-summary {
     margin: 15px 0 0 -8px;
 }
 

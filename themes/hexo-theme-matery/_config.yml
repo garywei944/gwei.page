@@ -67,8 +67,11 @@ cover:
 dream:
   enable: true
   showTitle: true
-  title: 在世界中心呼唤爱的野兽
-  text: demo
+#  title: 在世界中心呼唤爱的野兽
+  title: 就是为了这点儿醋，我才包的这顿饺子。
+  text: >
+    ———— 姜文《邪不压正》
+    <br><br>
 
 # Whether to display the musics.
 # 是否在首页显示音乐.
@@ -76,14 +79,15 @@ music:
   enable: true
   title: #非吸底模式有效
     enable: true
-    show: 听听音乐
+    show: lofi hip hop
   autoHide: true    # hide automaticaly
   server: netease   #require	music platform: netease, tencent, kugou, xiami, baidu
   type: playlist    #require song, playlist, album, search, artist
   id: 5151371985     #require	song id / playlist id / album id / search keyword
   fixed: true       # 开启吸底模式
   autoplay: false   # 是否自动播放
-  theme: '#42b983'
+#  theme: '#42b983'
+  theme: '#66ccff'
   loop: 'all'       # 音频循环播放, 可选值: 'all', 'one', 'none'
   order: 'random'   # 音频循环顺序, 可选值: 'list', 'random'
   preload: 'auto'   # 预加载，可选值: 'none', 'metadata', 'auto'
@@ -96,9 +100,10 @@ music:
 video:
   enable: false
   showTitle: true
-  title: 精彩视频
+  title: YouTube demo
   url: # url和iframeUrl其中一个必填
-  iframeUrl: #在bilibili或者爱奇艺分享时选择iframe，然后填那个url来这里，sample: //player.bilibili.com/player.html?aid=669520137&bvid=BV1oa4y1L7mw&cid=234543483&page=1
+  #在bilibili或者爱奇艺分享时选择iframe，然后填那个url来这里，sample: //player.bilibili.com/player.html?aid=669520137&bvid=BV1oa4y1L7mw&cid=234543483&page=1
+  iframeUrl:
   pic:
   thumbnails:
   height: # 如：400
@@ -128,7 +133,7 @@ indexbtn:
   enable: true
   name: Github
   icon: fab fa-github-alt
-  url: https://github.com/garywei944
+  url: https://github.com/garywei944/gwei.page
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
@@ -468,6 +473,32 @@ featureImages:
 - /medias/featureimages/21.jpg
 - /medias/featureimages/22.jpg
 - /medias/featureimages/23.jpg
+- /medias/featureimages/24.jpg
+- /medias/featureimages/25.jpg
+- /medias/featureimages/26.jpg
+- /medias/featureimages/27.jpg
+- /medias/featureimages/28.jpg
+- /medias/featureimages/29.jpg
+- /medias/featureimages/30.jpg
+- /medias/featureimages/31.jpg
+- /medias/featureimages/32.jpg
+- /medias/featureimages/33.jpg
+- /medias/featureimages/34.jpg
+- /medias/featureimages/35.jpg
+- /medias/featureimages/36.jpg
+- /medias/featureimages/37.jpg
+- /medias/featureimages/38.jpg
+- /medias/featureimages/39.jpg
+- /medias/featureimages/40.jpg
+- /medias/featureimages/41.jpg
+- /medias/featureimages/42.jpg
+- /medias/featureimages/43.jpg
+- /medias/featureimages/44.jpg
+- /medias/featureimages/45.jpg
+- /medias/featureimages/46.jpg
+- /medias/featureimages/47.jpg
+- /medias/featureimages/48.jpg
+- /medias/featureimages/49.jpg
 
 # default configs that the default policy for every articles/posts
 # default 配置文章的默认转载规则
@@ -509,11 +540,11 @@ tuxiaochao:
 #背景canvas-nest
 canvas_nest:
   enable: true
-  color: 0,0,255 # 线条颜色, 默认: '0,0,0' ；三个数字分别为(R,G,B)，注意用,分割
-  pointColor: 0,0,255 # 交点颜色, 默认: '0,0,0' ；三个数字分别为(R,G,B)，注意用,分割
+  color: 255,255,255 # 线条颜色, 默认: '0,0,0' ；三个数字分别为(R,G,B)，注意用,分割
+  pointColor: 255,255,255 # 交点颜色, 默认: '0,0,0' ；三个数字分别为(R,G,B)，注意用,分割
   opacity: 0.7 # 线条透明度（0~1）, 默认: 0.5
   zIndex: -1 # 背景的 z-index 属性，css 属性用于控制所在层的位置, 默认: -1.
-  count: 99 # 线条的总数量, 默认: 99
+  count: 128 # 线条的总数量, 默认: 99
 
 # 背景静止彩带.
 ribbon:
@@ -548,9 +579,11 @@ subtitle:
   typeSpeed: 100 # 打字速度
   backSpeed: 50 # 删除速度
   sub:
-    - 辜负谁，拥抱谁，牺牲谁，幸福的路七拐八绕，眼泪微笑混成一团，时间过去，一笔笔账目已经算不清楚。
     - 该升华的升华，该堕落的堕落。
+    - “你想成为英雄，还是坐在路边鼓掌的人。”
     - “你会说唐柔不好，是不是因为在她身上看到了自己没被社会磨平棱角的模样？”
+    - 在世界中心呼唤爱的野兽
+    - 辜负谁，拥抱谁，牺牲谁，幸福的路七拐八绕，眼泪微笑混成一团，时间过去，一笔笔账目已经算不清楚。
 
 # 手机二级菜单.
 navMenu:
@@ -587,7 +620,9 @@ jsDelivr:
 # 网站背景图
 background:
   enable: true
-  url: "https://cdn.jsdelivr.net/gh/Tokisaki-Galaxy/res/site/medias/background.jpg"
+#  url: "https://cdn.jsdelivr.net/gh/Tokisaki-Galaxy/res/site/medias/background.jpg"
+#  url: "http://localhost:3000/gwei.page/medias/featureimages/42.jpg"
+  url: "/gwei.page/medias/cover.jpg"
 
 # 说说 https://artitalk.js.org/
 artitalk:
