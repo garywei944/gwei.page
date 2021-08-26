@@ -11,12 +11,14 @@ keywords:
   - ariseus
   - Guanghao Wei
 author: garywei944
-language: cn
+language:
+  - en
+  - zh-CN
 timezone: 'America/New_York'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://www.gwei.page
+url: https://garywei944.github.io/gwei.page/
 #permalink: :year/:month/:day/:title/
 permalink: :year/:hash/
 permalink_defaults:
@@ -101,9 +103,12 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hexo-theme-matery
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+- type: git
+  repo: git@github.com:garywei944/gwei.page.git
+#- type: heroku
+#  repo: https://git.heroku.com/gwei-page.git
