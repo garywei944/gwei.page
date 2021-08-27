@@ -4,10 +4,11 @@
   "description": "www.gwei.page",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
+    "build": "hexo g",
+    "watch": "hexo g -w",
     "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "server": "hexo server",
+    "deploy": "hexo d",
+    "server": "hexo s",
     "dev": "browser-sync start --proxy 'localhost:4000' --files 'public'"
   },
   "hexo": {
@@ -23,7 +24,7 @@
     "url": "https://github.com/garywei944/gwei.page/issues"
   },
   "engines": {
-    "node": "12"
+    "node": "16"
   },
   "dependencies": {
     "hexo": "^5.4.0",

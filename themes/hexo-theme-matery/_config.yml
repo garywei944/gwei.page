@@ -622,7 +622,7 @@ background:
   enable: true
 #  url: "https://cdn.jsdelivr.net/gh/Tokisaki-Galaxy/res/site/medias/background.jpg"
 #  url: "http://localhost:3000/gwei.page/medias/featureimages/42.jpg"
-  url: "/gwei.page/medias/cover.jpg"
+  url: "/medias/cover.jpg"
 
 # 说说 https://artitalk.js.org/
 artitalk:
