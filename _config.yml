@@ -120,8 +120,8 @@ theme: hexo-theme-matery
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  - type: git
-    repo: git@github.com:garywei944/gwei.page.git
+#  - type: git
+#    repo: git@github.com:garywei944/gwei.page.git
   - type: heroku
     repo: https://git.heroku.com/gwei-page.git
 
