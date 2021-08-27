@@ -4,7 +4,7 @@
   "description": "www.gwei.page",
   "private": true,
   "scripts": {
-    "build": "hexo generate -w",
+    "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server",
@@ -23,10 +23,11 @@
     "url": "https://github.com/garywei944/gwei.page/issues"
   },
   "engines": {
-    "node": "16"
+    "node": "12"
   },
   "dependencies": {
     "hexo": "^5.4.0",
+    "hexo-deployer-aws-s3": "^1.1.0",
     "hexo-deployer-git": "^3.0.0",
     "hexo-filter-github-emojis": "^3.0.4",
     "hexo-generator-archive": "^1.0.0",

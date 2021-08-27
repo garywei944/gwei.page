@@ -120,10 +120,14 @@ theme: hexo-theme-matery
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-#  - type: git
-#    repo: git@github.com:garywei944/gwei.page.git
-  - type: heroku
-    repo: https://git.heroku.com/gwei-page.git
+  - type: git
+    repo: git@github.com:garywei944/gwei.page.git
+#  - type: heroku
+#    repo: https://git.heroku.com/gwei-page.git
+#  - type: aws-s3             # The name of this plugin
+#    region: us-east-1        # The region where your bucket is located
+#    bucket: www.gwei.page        # The name of your bucket
+#    prefix: blog-resources   # The s3 key prefix
 
 search:
   path: search.xml
