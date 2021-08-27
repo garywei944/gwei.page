@@ -18,7 +18,7 @@ timezone: 'America/New_York'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://garywei944.github.io/gwei.page/
+url: https://www.gwei.page/
 #permalink: :year/:month/:day/:title/
 permalink: :year/:hash/
 permalink_defaults:
