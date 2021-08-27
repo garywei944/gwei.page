@@ -16,7 +16,14 @@ jobs:
           node-version: '16'
       - run: npm ci
       - run: npm run build
-      - run: npm run deploy
+
+      - name: Deploy
+        uses: sma11black/hexo-action@v1.0.4
+        with:
+          deploy_key: ${{ secrets.DEPLOY_KEY }}
+          user_name: garywei944
+          user_email: 33930674+garywei944@users.noreply.github.com
+          commit_msg: ${{ github.event.head_commit.message }}
 
       - name: sync to s3
         uses: jakejarvis/s3-sync-action@master
