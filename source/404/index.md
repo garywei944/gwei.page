@@ -1,7 +1,6 @@
 ---
 title: 404
-date: 2021-08-25 23:52:01
 type: "404"
 layout: "404"
-description: "Oops～，我崩溃了！找不到你想要的页面 :("
+description: "或许是不知梦的缘故，流离之人追逐幻影。"
 ---
