@@ -1,1 +1,16 @@
 /* Here is your custom css styles. */
+
+/* Chinese article formatting */
+.eva-cn > p {
+	text-indent: 2em;
+}
+
+.eva-cn > p + p {
+	padding-top: 1em;
+}
+
+.eva-foot {
+	margin-top: 2em;
+	text-align: right;
+	font-style: italic;
+}
