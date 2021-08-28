@@ -17,13 +17,14 @@ jobs:
       - run: npm ci
       - run: npm run build
 
-      - name: Deploy to GitHub Pages
-        uses: sma11black/hexo-action@v1.0.4
+      - uses: oleksiyrudenko/gha-git-credentials@v2.1
         with:
-          deploy_key: ${{ secrets.DEPLOY_KEY }}
-          user_name: garywei944
-          user_email: 33930674+garywei944@users.noreply.github.com
-          commit_msg: ${{ github.event.head_commit.message }}
+          global: true
+          name: 'garywei944'
+          email: '33930674+garywei944@users.noreply.github.com'
+          # actor: 'garywei944'
+          token: '${{ secrets.GL_PAT_WEB_CENTRAL }}'
+      - run: npm run deploy
 
       - name: Sync to s3
         uses: jakejarvis/s3-sync-action@master
