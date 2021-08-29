@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>ariseus</title>
+  
+  <subtitle>硬币的背面</subtitle>
+  <link href="https://www.gwei.page/atom.xml" rel="self"/>
+  
+  <link href="https://www.gwei.page/"/>
+  <updated>2021-08-29T01:06:07.493Z</updated>
+  <id>https://www.gwei.page/</id>
+  
+  <author>
+    <name>garywei944</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>序 - 关于这个网站</title>
+    <link href="https://www.gwei.page/2021/9ba9e2935025/"/>
+    <id>https://www.gwei.page/2021/9ba9e2935025/</id>
+    <published>2021-08-27T17:25:20.000Z</published>
+    <updated>2021-08-29T01:06:07.493Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;div</summary>
+        
+      
+    
+    
+    
+    <category term="随笔" scheme="https://www.gwei.page/categories/%E9%9A%8F%E7%AC%94/"/>
+    
+    
+    <category term="序" scheme="https://www.gwei.page/tags/%E5%BA%8F/"/>
+    
+  </entry>
+  
+</feed>
