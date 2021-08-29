@@ -121,7 +121,7 @@ theme: hexo-theme-matery
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   - type: git
-    repo: git@github.com:garywei944/gwei.page.git
+    repo: https://github.com/garywei944/gwei.page.git
 #  - type: heroku
 #    repo: https://git.heroku.com/gwei-page.git
 #  - type: aws-s3             # The name of this plugin
