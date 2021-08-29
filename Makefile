@@ -1,5 +1,8 @@
 .PHONY: w s dev
 
+d:
+	npm run deploy
+
 w:
 	npm run watch
 
