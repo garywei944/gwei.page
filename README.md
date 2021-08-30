@@ -14,7 +14,7 @@
 
 GitHub Actions automatically build and deploy the website to
 - [AWS S3 and Cloudfront](https://www.gwei.page/)
-- ~~[GitHub Pages](https://garywei944.github.io/gwei.page/)~~ *(Constructing)*
+- [GitHub Pages](https://garywei944.github.io/gwei.page/)
 
 whenever the branch `deploy` is updated.
 
