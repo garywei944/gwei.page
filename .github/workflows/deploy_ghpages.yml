@@ -17,7 +17,8 @@ jobs:
       - run: npm ci
 
       # Fix GitHub Pages url
-      - run: "sed -i 's/url: https:\/\/www.gwei.page\//url: https:\/\/garywei944.github.io\/gwei.page\//g' _config.yml"
+      - run: |
+          sed -i 's/url: https:\/\/www.gwei.page\//url: https:\/\/garywei944.github.io\/gwei.page\//g' _config.yml
       - run: npm run build
 
       - name: Deploy to GitHub Pages
