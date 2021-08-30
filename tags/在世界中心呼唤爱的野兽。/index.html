@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="分类, garywei944,ariseus,Guanghao Wei">
+    <meta name="keywords" content="标签: 在世界中心呼唤爱的野兽。, garywei944,ariseus,Guanghao Wei">
     <meta name="description" content="ariseus&#39; Personal Blog">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>分类 | ariseus</title>
+    <title>标签: 在世界中心呼唤爱的野兽。 | ariseus</title>
     <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -334,100 +334,156 @@
 
     
 
-<div id="category-cloud" class="container chip-container">
+<div id="tags" class="container chip-container">
     <div class="card">
         <div class="card-content">
             <div class="tag-title center-align">
-                <i class="fas fa-bookmark"></i>&nbsp;&nbsp;文章分类
+                <i class="fas fa-tags"></i>&nbsp;&nbsp;文章标签
             </div>
             <div class="tag-chips">
                 
                 
-                
-                <a href="/categories/%E9%9A%8F%E7%AC%94/" title="随笔: 1">
+                <a href="/tags/%E5%BA%8F/" title="序: 2">
                     <span class="chip center-align waves-effect waves-light
                              chip-default "
-                            style="background-color: #F9EBEA;">随笔
+                            data-tagname="序" style="background-color: #F9EBEA;">序
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/ariseus/" title="ariseus: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="ariseus" style="background-color: #F5EEF8;">ariseus
                         <span class="tag-length">1</span>
                     </span>
                 </a>
                 
                 
-                <a href="/categories/%E5%B9%B3%E8%A1%8C%E4%B8%96%E7%95%8C/" title="平行世界: 8">
+                <a href="/tags/%E5%9C%A8%E4%B8%96%E7%95%8C%E4%B8%AD%E5%BF%83%E5%91%BC%E5%94%A4%E7%88%B1%E7%9A%84%E9%87%8E%E5%85%BD%E3%80%82/" title="在世界中心呼唤爱的野兽。: 2">
                     <span class="chip center-align waves-effect waves-light
-                             chip-default "
-                            style="background-color: #F5EEF8;">平行世界
-                        <span class="tag-length">8</span>
+                             chip-active "
+                            data-tagname="在世界中心呼唤爱的野兽。" style="background-color: #D5F5E3;">在世界中心呼唤爱的野兽。
+                        <span class="tag-length">2</span>
                     </span>
                 </a>
                 
+                
+                <a href="/tags/%E6%84%9F%E8%B0%A2%E9%99%AA%E4%BC%B4/" title="感谢陪伴: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="感谢陪伴" style="background-color: #E8F8F5;">感谢陪伴
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E6%98%9F%E7%A9%BA/" title="星空: 2">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="星空" style="background-color: #FEF9E7;">星空
+                        <span class="tag-length">2</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E6%B2%99%E9%BE%99/" title="沙龙: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="沙龙" style="background-color: #F8F9F9;">沙龙
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
+                
+                
+                <a href="/tags/%E5%8F%AC%E5%94%A4%E5%8D%A1%E5%8C%85/" title="召唤卡包: 1">
+                    <span class="chip center-align waves-effect waves-light
+                             chip-default "
+                            data-tagname="召唤卡包" style="background-color: #82E0AA;">召唤卡包
+                        <span class="tag-length">1</span>
+                    </span>
+                </a>
                 
             </div>
         </div>
     </div>
 </div>
 
-
-    
-    <style type="text/css">
-    #category-radar {
-        width: 100%;
-        height: 360px;
-    }
-</style>
-
-<div class="container" data-aos="fade-up">
-    <div class="card">
-        <div id="category-radar" class="card-content"></div>
-    </div>
-</div>
-
-<script type="text/javascript" src="/libs/echarts/echarts.min.js"></script>
-<script type="text/javascript">
-    let radarChart = echarts.init(document.getElementById('category-radar'));
-
     
 
-    let option = {
-        title: {
-            left: 'center',
-            text: '文章分类雷达图',
-            textStyle: {
-                fontWeight: 500,
-                fontSize: 22
-            }
-        },
-        tooltip: {},
-        radar: {
-            name: {
-                textStyle: {
-                    color: '#3C4858'
-                }
-            },
-            indicator: [{"name":"随笔","max":9},{"name":"平行世界","max":9}],
-            nameGap: 5,
-            center: ['50%','55%'],
-            radius: '66%'
-        },
-        series: [{
-            type: 'radar',
-            color: ['#3ecf8e'],
-            itemStyle: {normal: {areaStyle: {type: 'default'}}},
-            data : [
-                {
-                    value : [1,8],
-                    name : '文章分类数量'
-                }
-            ]
-        }]
-    };
-
-    radarChart.setOption(option);
-</script>
-
-    
-
+    <article id="articles" class="container articles">
+        <div class="row tags-posts">
+            
+            
+            <div class="article tag-post col s12 m6 l4" data-tags="在世界中心呼唤爱的野兽。" data-aos="fade-up">
+                <div class="card">
+                    <a href="/2019/133592a76889/">
+                        <div class="card-image tag-image">
+                            
+                            
+                            <img src="/medias/featureimages/8.jpg" class="responsive-img" alt="太吾乙己">
+                            
+                            <span class="card-title">太吾乙己</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-06-09
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E5%B9%B3%E8%A1%8C%E4%B8%96%E7%95%8C/" class="post-category">
+                                平行世界
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="article tag-post col s12 m6 l4" data-tags="序, 在世界中心呼唤爱的野兽。" data-aos="fade-up">
+                <div class="card">
+                    <a href="/2019/e7dbd7fe4adb/">
+                        <div class="card-image tag-image">
+                            
+                            
+                            <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="序 - 是留下">
+                            
+                            <span class="card-title">序 - 是留下</span>
+                        </div>
+                    </a>
+                    <div class="card-content article-content">
+                        <div class="publish-info">
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2019-03-04
+                            </span>
+                            <span class="publish-author">
+                                
+                                <i class="fas fa-bookmark fa-fw icon-category"></i>
+                                
+                                <a href="/categories/%E5%B9%B3%E8%A1%8C%E4%B8%96%E7%95%8C/" class="post-category">
+                                平行世界
+                                </a>
+                                
+                                
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </article>
 </main>
+
+
 
 
     <footer class="page-footer bg-color">
