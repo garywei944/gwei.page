@@ -19,6 +19,8 @@ jobs:
       # Fix GitHub Pages url
       - run: |
           sed -i 's/url: https:\/\/www.gwei.page\//url: https:\/\/garywei944.github.io\/gwei.page\//g' _config.yml
+      - run: |
+          sed -i 's/  url: "\/medias\/cover.jpg"/  url: "\/gwei.page\/medias\/cover.jpg"/g' themes/hexo-theme-matery/_config.yml
       - run: npm run build
 
       - name: Deploy to GitHub Pages
