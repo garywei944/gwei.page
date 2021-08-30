@@ -4,7 +4,7 @@ date: 2021-08-27 13:25:20
 categories:
     - 随笔
 tags:
-    - 序
+    - [序]
 cover: true
 ---
 
@@ -37,4 +37,5 @@ cover: true
 于Springfield ETS考场
 
 </div>
+
 </div>
