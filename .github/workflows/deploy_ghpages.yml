@@ -1,0 +1,29 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - deploy
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+      - run: npm ci
+
+      # Fix GitHub Pages url
+      - run: "sed -i 's/url: https:\/\/www.gwei.page\//url: https:\/\/garywei944.github.io\/gwei.page\//g' _config.yml"
+      - run: npm run build
+
+      - name: Deploy to GitHub Pages
+        uses: sma11black/hexo-action@v1.0.4
+        with:
+          deploy_key: ${{ secrets.DEPLOY_KEY }}
+          user_name: garywei944
+          user_email: 33930674+garywei944@users.noreply.github.com
+          commit_msg: ${{ github.event.head_commit.message }}
