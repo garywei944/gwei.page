@@ -2,9 +2,10 @@
 title: 太吾乙己
 date: 2019-06-09 00:00:00
 categories:
-    - 平行世界
+    - [平行世界]
 tags:
     - [在世界中心呼唤爱的野兽。]
+toc: false
 ---
 
 <div class="eva-cn">

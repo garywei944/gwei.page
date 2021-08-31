@@ -2,9 +2,10 @@
 title: 出了井的青蛙依然不会飞。
 date: 2019-03-19 00:00:00
 categories:
-  - 平行世界
+  - [平行世界]
 tags:
   - [ariseus]
+toc: false
 ---
 
 <div class="eva-cn">

@@ -6,6 +6,8 @@ categories:
 tags:
     - [序]
 cover: true
+toc: false
+top: true
 ---
 
 <div class="eva-cn">

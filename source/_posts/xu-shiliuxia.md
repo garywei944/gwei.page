@@ -6,6 +6,8 @@ categories:
 tags:
     - [在世界中心呼唤爱的野兽。]
     - [序]
+toc: false
+top: true
 ---
 
 <div class="eva-cn">
